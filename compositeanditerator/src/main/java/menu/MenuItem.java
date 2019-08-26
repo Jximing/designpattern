@@ -1,5 +1,7 @@
 package menu;
 
+import java.util.Iterator;
+
 /**
  * @ClassName MenuItem
  * @Description TODO
@@ -49,5 +51,9 @@ public class MenuItem extends MenuComponet {
         }
         System.out.println(",  "+getPrice());
         System.out.println("    -- "+ getDescription());
+    }
+
+    public Iterator createIterator(){
+        return new NullIterator();
     }
 }

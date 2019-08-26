@@ -1,5 +1,7 @@
 package menu;
 
+import java.util.Iterator;
+
 /**
  * @ClassName Waitress
  * @Description TODO
@@ -17,5 +19,20 @@ public class Waitress {
 
     public void printMenu(){
         allMenus.print();
+    }
+
+    public void printVegetarainMenu(){
+        Iterator iterator = allMenus.createIterator();
+        System.out.println("\nVEGETARAIN MENU\n-----");
+        while (iterator.hasNext()){
+            MenuComponet menuComponet = (MenuComponet) iterator.next();
+            try {
+                if (menuComponet.isVegetarian()) {
+                    menuComponet.print();
+                }
+            } catch (Exception e) {
+                System.out.println(menuComponet.getName());
+            }
+        }
     }
 }

@@ -1,5 +1,7 @@
 package menu;
 
+import java.util.Iterator;
+
 /**
  * @ClassName MenuComponet
  * @Description TODO
@@ -38,6 +40,10 @@ public class MenuComponet {
     }
 
     public void print(){
+        throw new UnsupportedOperationException();
+    }
+
+    public Iterator createIterator(){
         throw new UnsupportedOperationException();
     }
 }

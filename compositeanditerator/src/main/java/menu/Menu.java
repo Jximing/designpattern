@@ -12,9 +12,9 @@ import java.util.Iterator;
  **/
 public class Menu extends MenuComponet {
 
-    ArrayList<MenuComponet> menuComponets = new ArrayList<>();
-    String name;
-    String description;
+    private ArrayList<MenuComponet> menuComponets = new ArrayList<>();
+    private String name;
+    private String description;
 
     public Menu(String name, String description) {
         this.name = name;
@@ -56,5 +56,9 @@ public class Menu extends MenuComponet {
             iterator.next().print();
         }
 
+    }
+
+    public CompositeItrator createIterator(){
+        return new CompositeItrator(menuComponets.iterator());
     }
 }
