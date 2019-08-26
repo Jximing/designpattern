@@ -37,9 +37,17 @@ public class CompositeItrator implements Iterator {
     public Object next() {
         if (hasNext()) {
             Iterator<MenuComponet> iterator = stack.peek();
+//            这段代码有问题，第二层的CompositeItrator返回的Menu会加到第一层里面去。
+//            MenuComponet componet = iterator.next();
+//            if (componet instanceof Menu){
+//                stack.push(componet.createIterator());
+//            }
+//            return componet;
+            //这里不返回Menu对象，因为返回Menu的话会逐层往上添加CompositeItrator导致重复数据成倍增加
             MenuComponet componet = iterator.next();
-            if (componet instanceof Menu){
+            if (null!=componet && componet instanceof Menu){
                 stack.push(componet.createIterator());
+                return null;
             }
             return componet;
         }else {

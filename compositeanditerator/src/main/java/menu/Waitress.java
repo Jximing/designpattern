@@ -31,7 +31,7 @@ public class Waitress {
                     menuComponet.print();
                 }
             } catch (Exception e) {
-                System.out.println(menuComponet.getName());
+//                System.out.println(menuComponet.getName());
             }
         }
     }
