@@ -11,7 +11,6 @@ import java.util.List;
  * @Date 2019/8/27 00:27
  * @Versrion 1.0
  **/
-
 public class Messenger {
     LetterComposite messageFromOrcs() {
         List<Word> words = new ArrayList<>();
