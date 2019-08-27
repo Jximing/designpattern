@@ -38,8 +38,7 @@ High-level modules should not depend on low-level modules. Both should depend on
 ## 迪米特法则（Law of Demeter）
 ### 定义
 >You only ask for objects which you directly need.
-###
-
+### 解读
 - 迪米特法则也叫做最少知道原则（Least Know Principle）， 一个类应该只和它的成员变量，方法的输入，返回参数中的类作交流，而不应该引入其他的类（间接交流）。
 
 ## 里氏替换原则（Liskov Substitution Principle）
