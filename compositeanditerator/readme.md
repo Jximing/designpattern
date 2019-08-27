@@ -12,7 +12,7 @@
 每个句子都由单词组成，而单词又由字符组成。这些对象中的每一个都是可打印的，并且它们可以在它们之前或之后打印一些内容，例如句子总是以句号结束并且字总是在它之前有空格。
 ```
 
-![image-20190828000526377](/Users/mingjie/Library/Application Support/typora-user-images/image-20190828000526377.png)
+![omposite](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Composite.jpg)
 
 ### 应用
 

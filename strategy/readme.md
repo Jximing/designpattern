@@ -8,7 +8,7 @@
 
 超市购物，顾客决定使用哪种方式付款。
 
-![image-20190828010722573](/Users/mingjie/Library/Application Support/typora-user-images/image-20190828010722573.png)
+![Strategy](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Strategy.jpg)
 
 ### 应用
 

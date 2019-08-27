@@ -12,7 +12,7 @@
 一辆基本配置的汽车，可以加上豪华版的配置，也可以加上运动版的配置。
 ```
 
-![image-20190828001816667](/Users/mingjie/Library/Application Support/typora-user-images/image-20190828001816667.png)
+![Decorator](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Decorator.jpg)
 
 ### 应用
 

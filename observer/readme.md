@@ -4,7 +4,7 @@
 
 定义对象之间的一对多依赖关系，以便当一个对象更改状态时，将自动通知和更新其所有依赖项。
 
-![image-20190828005718779](/Users/mingjie/Library/Application Support/typora-user-images/image-20190828005718779.png)
+![Observer](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Observer.jpg)
 
 ### 应用
 

@@ -4,7 +4,7 @@
 
 将请求封装为对象，从而允许您使用不同的请求，队列或日志请求参数化客户端，并支持可撤销操作。
 
-![image-20190827231355431](/Users/mingjie/Library/Application Support/typora-user-images/image-20190827231355431.png)
+![Command](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Command.jpg)
 
 ### 应用
 

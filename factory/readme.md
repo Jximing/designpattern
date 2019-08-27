@@ -32,7 +32,7 @@
 
 提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类。（ 在抽象工厂模式中，每一个具体工厂都提供了多个工厂方法用于产生多种不同类型的对象）
 
-![image-20190828004255379](/Users/mingjie/Library/Application Support/typora-user-images/image-20190828004255379.png)
+![Factory](https://raw.githubusercontent.com/Jximing/git_resources/master/pictures/Factory.jpg)
 
 #### 应用
 
