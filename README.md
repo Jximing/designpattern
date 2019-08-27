@@ -54,3 +54,17 @@ High-level modules should not depend on low-level modules. Both should depend on
 
 [适配器模式](./adapter/readme.md)
 
+[命令模式](./Command/readme.md)
+
+[组合模式](./compositeanditerator/readme.md)
+
+[装饰模式](./decorator/readme.md)
+
+[工厂模式](./factory/readme.md)
+
+[观察者模式](./observer/readme.md)
+
+[策略模式](./strategy/readme.md)
+
+[模板模式](./templatemethod/readme.md)
+
