@@ -47,3 +47,10 @@ High-level modules should not depend on low-level modules. Both should depend on
 ### 解读
 
 - 在继承体系中，子类中可以增加自己特有的方法，也可以实现父类的抽象方法，但是不能重写父类的非抽象方法，否则该继承关系就不是一个正确的继承关系。
+
+
+
+# 设计模式
+
+[适配器模式](./adapter/readme.md)
+
