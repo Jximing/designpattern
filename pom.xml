@@ -17,6 +17,7 @@
         <module>singleton</module>
         <module>strategy</module>
         <module>templatemethod</module>
+        <module>state</module>
     </modules>
     <packaging>pom</packaging>
 
